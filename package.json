@@ -1,0 +1,22 @@
+{
+  "name": "lit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "es-dev-server --app-index index.html --node-resolve --watch --open",
+    "start": "web-dev-server --node-resolve --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lit-element": "4.0.5"
+  },
+  "devDependencies": {
+    "@web/dev-server": "^0.4.5",
+    "es-dev-server": "2.1.0"
+  }
+}
